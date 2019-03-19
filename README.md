@@ -4,8 +4,8 @@ Updated on 2019-03-19:
 
   Uploaded AI_Exercise_V1.py, which Improved feature engineering in order to implement LSTM model on entire dataset(including all 28 venues) with multiple time steps.
   
-  However, I am still looking for a method to solve the uneven interval between dates.                  
-
+  However, it only reduces the RMSE from roughly 9.8 to 9.2. I am still looking for a method to solve the uneven interval between dates.   
+  
 ------------------------
 Hi, welcome to my first project that uses LSTM.
 
