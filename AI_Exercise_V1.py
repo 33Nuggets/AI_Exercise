@@ -32,6 +32,7 @@ raw = quick_clean(raw)
 
 def df_to_ts_array(df):
     """
+    (helper function of prepare_data())
     transform df to np.array with each row has:
         temperature
         precipitation
@@ -47,6 +48,7 @@ def df_to_ts_array(df):
 
 def split_sequences(sequences, n_steps):
     """
+    (helper function of prepare_data())
     transform a time series np.array to X, y where
         X is of shape(number of samples, n_steps, 2)
         y is of shape(number of samples, )
